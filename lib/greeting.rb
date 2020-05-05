@@ -4,10 +4,10 @@ puts "What is your name? "
 name = gets.strip
 
 def greeting(name)
-  puts "Hello User!"
+  puts "Hi! I'm HAL. What's your name?"
   puts "What is your name? "
   name = gets.strip
-  puts "Hello #{name}!"
+  puts "Hello #{name}. It's nice to meet you."
 end
 
 greeting(name)
